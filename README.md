@@ -85,7 +85,7 @@ JavaScript
 This website template is designed to be responsive and mobile-friendly, ensuring a seamless viewing experience on all devices, including smartphones and tablets.
 
 ## Get in Touch
-If you have any questions, suggestions, or feedback, feel free to reach out to me at tanishvashisth@gmail.com
+If you have any questions, suggestions, or feedback, feel free to reach out to me at bogusdeck on discord
 
 Create a magical and unforgettable proposal experience with our Valentine Proposal Website template! 💍✨
 
