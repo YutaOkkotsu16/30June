@@ -46,8 +46,7 @@
         height: 100%;
       }
 
-      .end-button,
-      .next-page-button {
+      .end-button {
         display: block;
         margin: auto;
         padding: 2vw 4vw; /* Set padding relative to viewport width */
@@ -61,8 +60,7 @@
         margin-top: 2vw; /* Set margin-top relative to viewport width */
       }
 
-      .end-button:hover,
-      .next-page-button:hover {
+      .end-button:hover {
         background-color: #0d63e0;
       }
 
@@ -116,7 +114,6 @@
         );
         if (allPopped) {
           createEndButton();
-          createNextPageButton(); // Create next page button
         }
       }
 
@@ -130,22 +127,12 @@
         container.appendChild(endButton);
       }
 
-      function createNextPageButton() {
-        const nextPageButton = document.createElement("button");
-        nextPageButton.textContent = "Next Page";
-        nextPageButton.classList.add("next-page-button");
-        nextPageButton.addEventListener("click", () => {
-          window.location.href = "lastpage.html"; // Redirect to the next page
-        });
-        container.appendChild(nextPageButton);
-      }
-
       function resetGame() {
         // Increment reset counter
         resetCounter++;
         // If reset more than 3 times, show alert
         if (resetCounter > 3) {
-          alert("bhn ki lodi agge bhi bd ja");
+          alert("I love you");
         } else {
           // Remove all bubbles and buttons
           container.innerHTML = "";
